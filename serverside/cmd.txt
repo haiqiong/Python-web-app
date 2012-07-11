@@ -1,0 +1,8 @@
+1. http-get
+$curl -i http://localhost:8080/?foo=bar
+2. http-post
+$ curl http://localhost:8080/ -F name=john -F foo=bar -F datafile=@http-post.py
+3. http-get-thread
+$ curl http://localhost:8080/ 
+4. http-get-error
+$ curl -i http://localhost:8080/ 

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Fill a form</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Fill out a form</h1>
+		<form name="input" action="./cgi-bin/print-form2.cgi" method="get">
+		<p>
+			<input type="text" name="textField" value="Some text" /><br />
+			<input type="password" name="passwordField" value="A password" />
+			<input type="hidden" name="hiddenField" value="A hidden field" />
+		</p>
+		<p>Choose one:<br />
+			<input type="radio" name="radioButton" value="1" /> 1<br />
+			<input type="radio" name="radioButton" value="2" checked="checked" /> 2<br />
+			<input type="radio" name="radioButton" value-"3" /> 3<br />
+		</p>
+		<textarea name="largeTextEntry">A lot of text</textarea>
+		<p>Choose one or more:
+			<select name="selection" size="4" multiple="multiple">
+				<option value="Option 1">Option 1</option>
+				<option value="option 2" selected="selected">Option 2</option>
+				<option value="option 3" selected="selected">Option 3</option>
+				<option value="option 4" selected="selected">Option 4</option>
+			</select>
+		</p>
+		<p>
+			<input type="Submit" name="button" value="Submit this form" />
+		<p><input type="Submit" name="button" value="Submit this form (Button #2)" />
+		</form>
+	</body>
+</html>
+
+
+			
+
+

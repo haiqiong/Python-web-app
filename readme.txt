@@ -20,6 +20,31 @@ socketserver.py bug, no data sent back to client
 (6) download a file from server to client. option -mode, -file, -host, -port
 download-file.py
 
+2. client side of common Internet protocols
+/clientside
+(1) read a file by ftplib.
+get-one-file.py
+(2) read a file with urllib.request
+get-fiel-urllib.py
+
+
+3. server side
+/serverside
+(1) get client and server info with HTTP GET by BaseHTTPServer
+http-get.py
+(2) post form data to server with HTTP POST by BaseHTTPServer
+http-post.py
+(3) threading for HTTP GET
+http-get-thread.py
+(4) download data with urllib.urlretrieve()
+urllib-get.py
+(5) get full log info of request and response.
+webserver-simple2.py, test by http://localhost:8080/hello.html
+(6) display the form filled by the user dynamically.
+form.html, cgi-bin/print-form.cgi, cgi-bin/print-form2.cgi
+(7) content management-wiki
+SimpleWiki.py
+
 
 
 
